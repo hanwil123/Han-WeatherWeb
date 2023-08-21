@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+body .bgcuaca{
+    background: rgb(33,147,176);
+background: linear-gradient(90deg, rgba(33,147,176,1) 0%, rgba(109,213,237,1) 100%);
+}
