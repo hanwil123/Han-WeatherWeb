@@ -42,7 +42,7 @@ const Search = ({ onCityChange }) => {
           </div>
           <input
             id="default-search"
-            className="block w-96 p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="block xl:w-[450px] md:w-[450px] ip13promax:w-[428px] ipxr:w-[414px] on2:w-[412px]  px5:w-[393px] ip13:w-[390px] ipx:w-[375px] sm:w-[360px] ip5:w-[320px] p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             value={cityName}
             onChange={handleCityChange}
             type="search"

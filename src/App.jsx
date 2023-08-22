@@ -36,8 +36,8 @@ function App() {
   return (
     <>
       <section className="text-gray-600 body-font">
-        <div className="kartu container mx-auto flex px-5 py-10 items-center justify-center flex-col w-[450px] bgcuaca border-solid border-b-slate-500 shadow-xl shadow-black rounded-xl border">
-          <div className=" mb-5">
+        <div className="kartu container h-screen mx-auto flex py-10 items-center justify-center flex-col xl:w-[450px] md:w-[450px] ip13promax:w-[428px] ipxr:w-[414px] on2:w-[412px]  px5:w-[393px] ip13:w-[390px] ipx:w-[375px] sm:w-[360px] ip5:w-[320px] bgcuaca border-solid border-b-slate-500 shadow-xl shadow-black rounded-xl border">
+          <div className=" ">
             <Search onCityChange={fetchWeatherData} />
           </div>
           {displayWeather ? (
@@ -100,7 +100,9 @@ function App() {
           ) : (
             <>
               <div className=" my-48">
-                <h1 className=" text-2xl text-blue-950">SEARCH COUNTRY'S WEATHER</h1>
+                <h1 className=" text-2xl text-blue-950">
+                  SEARCH COUNTRY'S WEATHER
+                </h1>
               </div>
             </>
           )}
