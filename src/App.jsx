@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import Search from "./Components/search";
+import Search from "./Components/Search";
 import Lottie from "lottie-react";
 import Cr from "./assets/cerah.json";
 import Hp from "./assets/hujanpetir.json";
 import Br from "./assets/berawan.json";
+import Hz from "./assets/haze.json";
 import "./index.css";
 
 function App() {
@@ -57,6 +58,11 @@ function App() {
                         {weatherData.weather[0].main === "Clear" ? (
                           <>
                             <Lottie animationData={Cr} />
+                          </>
+                        ) : null}
+                        {weatherData.weather[0].main === "Haze" ? (
+                          <>
+                            <Lottie animationData={Hz} />
                           </>
                         ) : null}
                       </>
